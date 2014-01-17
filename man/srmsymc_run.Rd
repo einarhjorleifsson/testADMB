@@ -3,7 +3,7 @@
 \title{Run srmsymc}
 \usage{
   srmsymc_run(sr, opt_sen = 1, opt_pen = 1, nits = 100,
-    path, output = FALSE)
+    path, output = FALSE, windose = TRUE)
 }
 \arguments{
   \item{sr}{integer. containg the stock-recruitment model}
@@ -21,6 +21,9 @@
 
   \item{output}{boolean. If FALSE (default) no results
   (*.dat) files are returned.}
+
+  \item{windose}{boolean for operating system, winows vs
+  unix-like}
 }
 \description{
   Run the ADM srmsymc program
